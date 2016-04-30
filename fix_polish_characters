@@ -2,4 +2,4 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-sed -i -f ${DIR}/mapping.txt ${1}	
+sed -i -f "${DIR}/mapping.txt" "${1}"
