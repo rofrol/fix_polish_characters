@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-sed -i -f "${DIR}/mapping.txt" "${1}"
+sed -f "${DIR}/mapping3.txt" "${1}" >"${1}.2"
