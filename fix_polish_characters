@@ -3,3 +3,4 @@
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 sed -f "${DIR}/mapping3.txt" "${1}" >"${1}.2"
+mv "${1}.2" "${1}"
